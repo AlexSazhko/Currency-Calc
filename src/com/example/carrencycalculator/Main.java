@@ -3,9 +3,12 @@ package com.example.carrencycalculator;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import android.widget.RadioGroup;
 
 public class Main extends Activity {
 
+	RadioGroup rg;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
